@@ -14,30 +14,154 @@
 <body>
     <header>
         <div class="container">
-            <div class="row">
+            <div class="header-content">
                 <div class="logo">
-
+                    <a href="/">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
                 </div>
                 <nav class="nav">
-                    
+                    <ul class="desktop">
+                        <li>
+                            <a href="/">Компанія</a>
+                        </li>
+                        <li>
+                            <a href="/">Продукція</a>
+                        </li>
+                        <li>
+                            <a href="/">Статті</a>
+                        </li>
+                        <li>
+                            <a href="/">Рішення</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакти</a>
+                        </li>
+                    </ul>
+                    <ul class="mobile">
+                        <li>
+                            <a href="/">Компанія</a>
+                        </li>
+                        <li>
+                            <a href="/">Продукція</a>
+                        </li>
+                        <li>
+                            <a href="/">Статті</a>
+                        </li>
+                        <li>
+                            <a href="/">Рішення</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакти</a>
+                        </li>
+                        <div class="contact-number">
+                            <a href="tel:+0800000000">0 (800) 00-00-00</a>
+                        </div>
+                        <ul class="select-language">
+                            <li>
+                                <button type="button" class="language-ua">UA</button>
+                            </li>
+                            <li>
+                                <button type="button" class="language-ru">RU</button>
+                            </li>
+                        </ul>
+                    </ul>
                 </nav>
                 <div class="contacts">
-
+                    <div class="contact-number">
+                        <a href="tel:+0800000000">0 (800) 00-00-00</a>
+                    </div>
+                    <button type="button" class="contact-me-btn action-btn">
+                        Зв’язатись
+                    </button>
+                    <ul class="select-language">
+                        <li>
+                            <button type="button" class="language-ua">UA</button>
+                        </li>
+                        <li>
+                            <button type="button" class="language-ru">RU</button>
+                        </li>
+                    </ul>
                 </div>
+                <button class="menu-burger-btn"></button>
             </div>
         </div>
     </header>
     <main>
         <div class="slider">
             <div class="container">
-
+                <div class="advert-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-wrapper">
+                                <div class="about-us">
+                                    <h2 class="title">
+                                        Meltem
+                                    </h2>
+                                    <p class="desc">
+                                        Meltem – це гарантовано якісне вентиляційне обладнання від німецького заводу.
+                                    </p>
+                                    <button type="button" class="action-btn product-list-link-btn">Продукція</button>
+                                </div>
+                                <div class="product-image">
+                                    <img src="/img/MaestroPro-Transparent.png" alt="product"/>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title">
+                                        Відцентровий витяжний вентилятор
+                                    </h4>
+                                    <h3 class="model">
+                                        Meltem V-II 30-N
+                                    </h3>
+                                    <button type="button" class="action-btn product-link-btn">Детальніше</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-wrapper">
+                                <div class="slide-empty"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-wrapper">
+                                <div class="slide-empty"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
         <div class="pop-up">
-
+            <p class="info">
+                Використовуючи цей сайт, ви даєте згоду на роботу з файлами <a href="/" target="_blank" rel="noopener noreferrer">сookies</a>.
+            </p>
+            <button type="button" class="action-btn cookie-agree">Згоден</button>
         </div>
         <div class="contacts-form">
-            
+            <form action="" class="form">
+                <div class="form-wrapper">
+                    <h3 class="title">Залиште заявку</h3>
+                    <p class="desc">Ми зв’яжемося з вами найближчим часом.</p>
+                    <div class="name input-field">
+                        <input type="text" id="name" name="name" placeholder="Ваше ім’я*" required>
+                    </div>
+                    <div class="phone input-field">
+                        <input type="tel" id="phone" name="phone" pattern="^(380)+[0-9]{9}$" placeholder="+380-00-000-00-00*" required>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="action-btn submit-form-btn">Відправити</button>
+                    </div>
+                    <p class="clarifications">Натискаючи кнопку “Відправити”, ви погоджуєтесь з <a href="/" target="_blank"
+                            rel="noopener noreferrer">Правилами обробки персональних даних</a>.</p>
+                </div>
+                <button type="button" class="close-btn"></button>
+            </form>
+            <div class="success-window">
+                <h3 class="title">Дякуємо за заявку!</h3>
+                <p class="desc">Ваші дані успішно надіслані!</p>
+            </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

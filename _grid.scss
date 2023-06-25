@@ -1,0 +1,45 @@
+/* mobile (xs)*/
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+/* tablet (sm)*/
+@media(min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* laptop-s (sm)*/
+@media(min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* laptop-m (md)*/
+@media(min-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 1130px;
+    }
+}
+
+/* laptop-l (lg)*/
+@media(min-width: 1200px) {
+    .container {
+        width: 1130px;
+        max-width: none;
+    }
+}
+
+/* desktop (xl)*/
+@media(min-width: 1440px) {
+    .container {
+        width: 1350px;
+    }
+}
