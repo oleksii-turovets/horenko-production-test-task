@@ -43,12 +43,12 @@ function addSelectedLanguageClass() {
 //slider
 
 const swiper = new Swiper(".advert-slider", {
-    // speed: 400,
-    // spaceBetween: 50,
+    speed: 400,
+    spaceBetween: 50,
 
-    // autoplay: {
-    //     delay: 5000,
-    // },
+    autoplay: {
+        delay: 5000,
+    },
 
     pagination: {
         el: ".swiper-pagination",

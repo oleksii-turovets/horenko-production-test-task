@@ -133,7 +133,7 @@ header{
             width: 30px;
             height: 30px;
             border: none;
-            background: center no-repeat url('/img/burger-icon.svg');
+            background: center no-repeat url('img/burger-icon.svg');
             transition: all 0.5s ease-in-out;
 
             &:hover{
@@ -143,7 +143,7 @@ header{
 
             &.menu-opened{
                 transform: rotate(360deg);
-                background: center no-repeat url('/img/close-icon.svg');
+                background: center no-repeat url('img/close-icon.svg');
             }
         }
 
