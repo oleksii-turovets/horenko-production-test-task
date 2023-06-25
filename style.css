@@ -193,7 +193,7 @@ header .header-content .menu-burger-btn {
   width: 30px;
   height: 30px;
   border: none;
-  background: center no-repeat url("/img/burger-icon.svg");
+  background: center no-repeat url("img/burger-icon.svg");
   transition: all 0.5s ease-in-out;
 }
 header .header-content .menu-burger-btn:hover {
@@ -202,7 +202,7 @@ header .header-content .menu-burger-btn:hover {
 }
 header .header-content .menu-burger-btn.menu-opened {
   transform: rotate(360deg);
-  background: center no-repeat url("/img/close-icon.svg");
+  background: center no-repeat url("img/close-icon.svg");
 }
 
 /* laptop-s (sm)*/
@@ -512,11 +512,11 @@ header .header-content .menu-burger-btn.menu-opened {
   color: rgb(255, 0, 0);
 }
 .contacts-form .input-field:has(input.invalid).phone {
-  background: top 50% left 15px/20px no-repeat url(/img/flag-ua.svg), rgba(255, 204, 204, 0.2);
+  background: top 50% left 15px/20px no-repeat url("img/flag-ua.svg"), rgba(255, 204, 204, 0.2);
 }
 .contacts-form .phone {
   padding-left: 45px;
-  background: top 50% left 15px/20px no-repeat url(/img/flag-ua.svg);
+  background: top 50% left 15px/20px no-repeat url("img/flag-ua.svg");
 }
 .contacts-form .submit {
   width: 100%;
@@ -539,7 +539,7 @@ header .header-content .menu-burger-btn.menu-opened {
 .contacts-form .close-btn {
   width: 15px;
   height: 15px;
-  background: center/contain no-repeat url("/img/close-icon.svg");
+  background: center/contain no-repeat url("img/close-icon.svg");
   border: none;
   position: absolute;
   top: 15px;
@@ -551,7 +551,7 @@ header .header-content .menu-burger-btn.menu-opened {
 }
 .contacts-form .success-window {
   display: none;
-  background: top 43px left 50%/33px no-repeat url(/img/done-icon.svg), #FFFFFF;
+  background: top 43px left 50%/33px no-repeat url("img/done-icon.svg"), #FFFFFF;
   border-radius: 4px;
   padding: 100px 40px 40px;
   max-width: 210px;
@@ -632,11 +632,11 @@ header .header-content .menu-burger-btn.menu-opened {
     line-height: 1.5;
   }
   .contacts-form .input-field:has(input.invalid).phone {
-    background: top 50% left 20px/26px no-repeat url(/img/flag-ua.svg), rgba(255, 204, 204, 0.2);
+    background: top 50% left 20px/26px no-repeat url("img/flag-ua.svg"), rgba(255, 204, 204, 0.2);
   }
   .contacts-form .phone {
     padding-left: 61px;
-    background: top 50% left 20px/26px no-repeat url(/img/flag-ua.svg);
+    background: top 50% left 20px/26px no-repeat url("img/flag-ua.svg");
   }
   .contacts-form .submit {
     width: 100%;
@@ -655,7 +655,7 @@ header .header-content .menu-burger-btn.menu-opened {
     right: 30px;
   }
   .contacts-form .success-window {
-    background: top 67px left 50%/67px no-repeat url(/img/done-icon.svg), #FFFFFF;
+    background: top 67px left 50%/67px no-repeat url("img/done-icon.svg"), #FFFFFF;
     border-radius: 5px;
     padding: 170px 80px 60px;
     max-width: 378px;
