@@ -183,7 +183,7 @@
 
     .success-window{
         display: none;
-        background: top 43px left 50% / 33px no-repeat url(img/done-icon.svg),
+        background: top 43px left 50% / 33px no-repeat url('img/done-icon.svg'),
                     $clr-white;
         border-radius: 4px;
         padding: 100px 40px 40px;
@@ -273,14 +273,14 @@
         }
         .input-field:has(input.invalid) {
             &.phone {
-                background: top 50% left 20px / 26px no-repeat url(img/flag-ua.svg),
+                background: top 50% left 20px / 26px no-repeat url('img/flag-ua.svg'),
                     rgba(255, 204, 204, 0.2);
             }
         }
 
         .phone {
             padding-left: 61px;
-            background: top 50% left 20px / 26px no-repeat url(img/flag-ua.svg);
+            background: top 50% left 20px / 26px no-repeat url('img/flag-ua.svg');
 
         }
 
