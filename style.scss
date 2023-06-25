@@ -137,13 +137,13 @@
             }
         }
         &.phone{
-            background: top 50% left 15px / 20px no-repeat url(img/flag-ua.svg),
+            background: top 50% left 15px / 20px no-repeat url('img/flag-ua.svg'),
             rgba(255, 204, 204, 0.2);
         }
     }
     .phone{
         padding-left: 45px;
-        background: top 50% left 15px / 20px no-repeat url(img/flag-ua.svg);
+        background: top 50% left 15px / 20px no-repeat url('img/flag-ua.svg');
 
     }
 
@@ -306,7 +306,7 @@
         }
 
         .success-window {
-            background: top 67px left 50% / 67px no-repeat url(img/done-icon.svg),
+            background: top 67px left 50% / 67px no-repeat url('img/done-icon.svg'),
                         $clr-white;
             border-radius: 5px;
             padding: 170px 80px 60px;
